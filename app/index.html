@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI (55 PS5 Trophies)</title>
+<meta name="description" content="Unofficial fan guide and tracker for all 55 Grand Theft Auto VI trophies on PlayStation 5: roadmap to the platinum, missable flags, cited guides, offline checklist.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <p class="eyebrow">Unofficial fan guide &middot; not affiliated with Rockstar Games, Sony or PlayStation</p>
+    <h1>Leonida Trophy Guide</h1>
+    <p class="subtitle">Grand Theft Auto VI &mdash; all 55 PS5 trophies: 1 platinum, 2 gold, 6 silver, 46 bronze.</p>
+    <div class="progress-wrap" aria-label="Trophy progress">
+      <div class="progress-bar"><div id="progress-fill" class="progress-fill" style="width:0%"></div></div>
+      <p id="progress-text" class="progress-text">0 / 55 earned</p>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <button type="button" class="tab active" data-view="guide" id="tab-guide">Guide &amp; Tracker</button>
+  <button type="button" class="tab" data-view="roadmap" id="tab-roadmap">Roadmap to Platinum</button>
+  <button type="button" class="tab" data-view="missable" id="tab-missable">Missable &amp; Unconfirmed</button>
+</nav>
+
+<main>
+  <section id="view-guide" class="view">
+    <div class="controls">
+      <label class="control">Search
+        <input id="search" type="search" placeholder="Search name or description&hellip;" autocomplete="off">
+      </label>
+      <label class="control">Kind
+        <select id="filter-kind">
+          <option value="all">All kinds</option>
+          <option value="story">Story</option>
+          <option value="side">Side quests</option>
+          <option value="collectible">Collectibles</option>
+          <option value="activity">Activities</option>
+          <option value="secret">Secrets</option>
+          <option value="missable">Missable</option>
+        </select>
+      </label>
+      <label class="control">Grade
+        <select id="filter-grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label class="control check"><input id="filter-earned" type="checkbox"> Earned only</label>
+      <label class="control check"><input id="filter-unearned" type="checkbox"> Not earned only</label>
+      <label class="control check" title="Hides the names and descriptions of story trophies until you earn them"><input id="spoiler-toggle" type="checkbox"> Spoiler-safe mode</label>
+      <div class="control buttons">
+        <button type="button" id="export-btn">Export progress</button>
+        <button type="button" id="import-btn">Import progress</button>
+        <input id="import-file" type="file" accept=".json,application/json" hidden>
+        <button type="button" id="reset-btn" class="danger">Reset</button>
+      </div>
+    </div>
+    <p id="count-line" class="count-line"></p>
+    <ul id="trophy-list" class="trophy-list"></ul>
+    <p id="empty-line" class="empty-line" hidden>No trophies match these filters.</p>
+  </section>
+
+  <section id="view-roadmap" class="view" hidden>
+    <h2>Roadmap to the Platinum</h2>
+    <p class="lede">Four stages, in order. Finish the story first, then the duo work and stranger strands, then the open-world grind, then cleanup. The platinum pops when the last trophy does.</p>
+    <ol class="roadmap">
+      <li>
+        <h3>Stage 1 &mdash; Story (11 trophies)</h3>
+        <p>Play Chapters 1&ndash;4 and the final mission. Earns the chapter trophies, the mission trophies (Gone Fishing, Breakfast Run, Child&rsquo;s Play, Headliners, VCIA Takedown, Operation Savage Glory), the Cartel Heist, the final-mission gold, and the platinum's foundation. <strong>Before finishing Chapter 1, meditate at the Chapter 1 meditation spot</strong> &mdash; it may not come back (see Positive Mental Attitude).</p>
+      </li>
+      <li>
+        <h3>Stage 2 &mdash; Heists &amp; duo work (14 trophies)</h3>
+        <p>Stranger strands for Andy, Kenton, Billy, Randy and Tyrone, plus Bret's hunt, until 8 strands are complete (Strangers &amp; Freaks silver). Then the duo robberies with your partner: bank vaults, armored truck, jewelry store, shops back-to-back, losing a 4-star wanted level together, and one illegal operation per gang.</p>
+      </li>
+      <li>
+        <h3>Stage 3 &mdash; Open-world grind (27 trophies)</h3>
+        <p>The long tail: 250 stunts, 42 gold Shooting Range medals, 14 drone-race wins, 20 race wins, 100 vehicles, 52 areas, 100 WAiNK It locations, 3 card sets, 18 meditation spots, 50 challenges, fishing vs Cal, arcade, bowling, the Ocean Beach cocktail, the showroom smash, the VCIA departure, the melee drive-by, $250,000 laundered, $100,000 spent, 10 Scooter Bros registrations, and the 5 still-unconfirmed secret trophies once their methods are confirmed.</p>
+      </li>
+      <li>
+        <h3>Stage 4 &mdash; Cleanup &amp; 100% (3 trophies)</h3>
+        <p>Buy all 8 garage properties, reach 100% completion (A Long Road, gold), and the platinum &mdash; Vice Got a Price! &mdash; pops with the final trophy. Use the tracker's filters to find the last stragglers.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="view-missable" class="view" hidden>
+    <h2>Missable &amp; Unconfirmed</h2>
+    <h3>Possibly missable &mdash; 1 trophy</h3>
+    <p><strong>Positive Mental Attitude</strong> (meditate at every spot across Leonida): one meditation spot sits in the Chapter 1 area and may vanish after Chapter 1 ends. Meditate there before you finish Chapter 1. Every other trophy in this guide is earned in free roam after the story and cannot be missed.</p>
+    <h3>Still unconfirmed &mdash; 5 trophies</h3>
+    <p>Their methods are not confirmed by any source we checked, so this guide marks them UNCONFIRMED instead of inventing a method: Challenging Tank, Personal Best, Actions Speak Louder, Bad Luck, I Guess, and The Truth Is Out There. Check PowerPyx&rsquo;s GTA 6 Trophy Guide &amp; Roadmap or the GTA Zone trophy list for updates before chasing them.</p>
+    <ul id="missable-list" class="trophy-list"></ul>
+  </section>
+</main>
+
+<footer>
+  <p>Unofficial fan guide. Not affiliated with Rockstar Games, Sony Interactive Entertainment or PlayStation. Trophy names and descriptions are as PlayStation publishes them (official list via Exophase, as reported by Push Square). Guide text is written in our own words; each trophy cites its sources: PowerPyx &mdash; GTA 6 Trophy Guide &amp; Roadmap, and GTA Zone &mdash; GTA 6 Trophy List. No Rockstar artwork or logos are used. Works fully offline; progress is saved only in your browser (localStorage) and never leaves your device.</p>
+  <p>Referral code: <code>p5tm223q</code></p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
